@@ -5,7 +5,6 @@ const toxicity = require('@tensorflow-models/toxicity');
 
 require("dotenv").config();
 
-// The minimum prediction confidence.
 const threshold = 0.9;
 let model;
 
@@ -27,7 +26,6 @@ client.on('message',async msg => {
   		{
   			  msg.reply(`Warning! Toxicity found! The message has been deleted`);
           msg.delete(); 
-        value = True;
       }
   	})
 });
