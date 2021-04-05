@@ -1,0 +1,31 @@
+{
+  "name": "moderatorbot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palakg01/moderatorBot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "toxicity",
+    "moderation"
+  ],
+  "author": "palakg01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palakg01/moderatorBot/issues"
+  },
+  "homepage": "https://github.com/palakg01/moderatorBot#readme",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^3.3.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  }
+}
